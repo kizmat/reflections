@@ -1,16 +1,23 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-git configures the current directory and all subs to be tracked. This also creates
-a .git file. 
+	git configures the current directory and all subs to be tracked. This also creates
+	a .git file. 
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The staging area is a temp. commit basket, in it I define which sets of files will be 
-part of the next "single" commit.
+	The staging area is a temp. commit basket, in it I define which sets of files will be 
+	part of the next "single" commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	I can pre-check the staging area for changes, prior to making the commit.
+	This id dont with the git diff command, which compare only wd file with 
+	the staging file. After a review, I can finally make the commit.
+
+	I can also review the diff between the staging file and the repo file by 
+	using git diff --staged which compares the staging file to the repo
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
