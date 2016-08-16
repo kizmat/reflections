@@ -33,5 +33,10 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Coins is merged into the Master branch.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+	I dont see any cons really, Git can merge code easily when its clear whats wanted, while conflicts or unknowns are passed back to a human to decide on. This considerably makes it easier to work with. I do forsee a problem though if two developers wrote functions that do the same thing, but are named differently. As this might not be detected by one side
+	or the other.
