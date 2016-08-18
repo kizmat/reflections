@@ -39,4 +39,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+	When testing something new
+	If I want to share my change with collaboraters prior to merging to master
+	merging to master gets it done quick, but this might confuse my contributors
