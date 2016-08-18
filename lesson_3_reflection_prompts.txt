@@ -22,7 +22,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If I'm behind the remote, I could make the push merge less complicated if I 
+	merged locally first. Then made the push. Fetch would only give me the 
+	remote state, and not execute the actual merge.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
