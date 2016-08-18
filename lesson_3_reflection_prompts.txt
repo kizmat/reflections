@@ -29,7 +29,12 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+	Different people could work on the codebase, and make pull requests to
+	update the remote master branch, or any other branch for that matter.
+
+	For remote collaboration this is awesome. Even if I were to work with 
+	people in the same office, it would be much easier to use a git server
+	to maintain code.	
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
